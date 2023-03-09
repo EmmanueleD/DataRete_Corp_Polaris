@@ -1,0 +1,74 @@
+.p-card-content {
+  padding: 0.6rem 0.5rem !important;
+}
+
+.p-card .p-card-body {
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.big-button {
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  min-width: 12rem;
+  border-radius: 0px;
+  background-color: rgb(52, 58, 64) !important;
+  border-color: rgb(52, 58, 64) !important;
+  color: #fff;
+
+  &:hover {
+    background-color: #23272b !important;
+    border-color: #23272b !important;
+  }
+
+  &:enabled:focus {
+    box-shadow: 0 0 0 0.2rem #beccd2;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: 0;
+  }
+}
+
+.prestitosi-buttons .button-prestitosi {
+  background: #0e3996;
+  border: 1px solid #0e3996;
+
+  padding: 1rem 6rem;
+}
+
+.prestitosi-buttons .button-prestitosi:hover {
+  background: var(--cta-text-color);
+  color: #0e3996;
+  // font-weight: bold;
+  border: 1px solid #0e3996;
+  padding: 1rem 6rem;
+}
+
+.prestitosi-buttons .button-prestitosi:focus {
+  box-shadow: 0 0 0 1px #1556e2;
+  border: 1px solid #0e3996;
+  padding: 1rem 6rem;
+}
+
+.profilo {
+  &-avatar {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 1rem;
+    img {
+      display: inline;
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
